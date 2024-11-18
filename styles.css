@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+/* Favicon styles if needed in the future */
+link[rel="icon"],
+link[rel="apple-touch-icon"] {
+    display: block;
+}
+
 body {
     overflow: hidden;
     background-color: #1A1D2C;
@@ -17,22 +23,4 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #1A1D2C;
-    position: relative;
-}
-
-.email-link {
-    position: absolute;
-    bottom: 12rem;
-    left: 50%;
-    transform: translateX(-50%);
-    color: white;
-    text-decoration: none;
-    font-family: Arial, sans-serif;
-    font-size: 1.1rem;
-    opacity: 0.8;
-    transition: opacity 0.3s ease;
-}
-
-.email-link:hover {
-    opacity: 1;
 } 
