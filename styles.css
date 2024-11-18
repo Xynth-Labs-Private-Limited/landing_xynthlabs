@@ -22,7 +22,7 @@ body {
 
 .email-link {
     position: absolute;
-    bottom: 12rem;
+    bottom: 2rem;
     left: 50%;
     transform: translateX(-50%);
     color: white;
